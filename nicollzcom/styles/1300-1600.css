@@ -76,6 +76,8 @@ hr {
     float: left;
     height: 60%;
     bottom: -20%;
+    background-size: cover;
+    background-color: gold;
 }
 
 .title{
