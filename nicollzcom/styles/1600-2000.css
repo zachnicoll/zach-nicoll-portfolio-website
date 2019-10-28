@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: center;
+    padding: 10px;
+    border: none;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
+
+hr {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #000a05;
+    height: 5px;
+    background-color: #000a05;
+    width: 60%;
+    position: relative;
+}
+
+
+#landingpage{
+    display: block;
+	background-color: #FFFFFE;
+    align-content: center;
+    margin: auto;
+    height: 100%;
+    padding: 5% 0;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: center;
+    padding: 10% 0;
+    opacity: 0;
+    border-radius: 30px;
+}
+
+.portfolio-box{
+    margin: 4%;
+    float: left;
+    height: 60%;
+    bottom: -20%;
+}
+
+.title{
+    height: 5%;
+    padding: 8% 0;
+}
+
+.socials{
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+}
+
+.socials a{
+    text-align: center;
+    display: block;
+    width: 69px;
+    background-color: black;
+}
+
+.socials i:hover{
+    color: gold;
+}
+
+
+h1{
+    position: relative;
+    font-weight: 500;
+    font-size: 96px;
+    text-align: center;
+}
+h2{
+    position: relative;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 26px;
+    text-align: center;
+}
+i{
+    color: white;
+    padding: 4px;
+    font-size: 60px;
+}
+ul{
+    font-size: 26px;
+}
+
+#skills-list{
+    position:absolute; right:0%; top: 35%
+}
+
+form{
+    margin-top: 75px;
+    transition: all 4s ease-in-out;
+    position: relative;
+}
+
+.form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+form .submit{
+    background: gold;
+    border-color: transparent;
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 75px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+form .submit:hover{
+    background: white;
+    color:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

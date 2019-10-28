@@ -3,9 +3,11 @@
     <head>
         <title>Zach Nicoll || Software Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" media="screen and (min-device-width: 1300px) and (max-device-width: 1600px)" href="./styles/1300-1600.css">
+        <link rel="stylesheet" media="screen and (min-device-width: 1601px) and (max-device-width: 2000px)" href="./styles/1600-2000.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3a64ca89b8.js" crossorigin="anonymous"></script>
         <script src="js/jquery-3.4.1.js"></script>
         <script src="js/fadeInOnScroll.js"></script>
@@ -19,13 +21,12 @@
     <body>
         <div class="socials">
             <a href="https://github.com/zachnicoll" target="_blank">
-                <i class="fab fa-github" style="font-size: 40px"></i>
+                <i class="fab fa-github"></i>
             </a>
             <a href="./Zachary Nicoll - Programmer Resume 2019.pdf" target="_blank" download>
-                <i class="fas fa-download" style="font-size: 40px"></i>
+                <i class="fas fa-download"></i>
             </a>
-            <a href="mailto:zach.nicoll55@gmail.com?Subject=Job Offer" target="_top"><i class="fas fa-paper-plane"
-                    style="font-size: 40px"></i></a>
+            <a href="mailto:zach.nicoll55@gmail.com?Subject=Job Offer" target="_top"><i class="fas fa-paper-plane"></i></a>
         </div>
 
         <div class="col-12" id="landingpage" style="padding-top: 2%">
@@ -55,7 +56,7 @@
                         <hr>
                     </div>
                     <div class="col-6" style="position:absolute; top: 35%">
-                        <h2>Summary</h2>
+                        <u><h2>Summary</h2></u>
                         <p class="col-12"
                             style="text-align:unset; padding-left: 5%; padding-right: 5%; border-right: dashed 1px #000;">
                             I am an aspiring software developer currently in my second year of study in a degree of
@@ -66,8 +67,8 @@
                             climbing, cycling, and board games.
                         </p>
                     </div>
-                    <div class="col-6" style="position:absolute; right:2%; top: 35%">
-                        <h2>Skills</h2>
+                    <div id="skills-list" class="col-6">
+                        <u><h2>Skills</h2></u>
                         <ul>
                             <li>Web Dev</li>
                             <li>Web Scraping</li>

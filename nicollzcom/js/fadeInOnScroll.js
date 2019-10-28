@@ -17,7 +17,6 @@ $(document).ready(function () {
         $('.container').each(function (i) {
             var bottom_object = $(this).position().top + $(this).outerHeight()/2;
             var bottom_window = $(window).scrollTop() + $(window).height();
-            console.log(bottom_window, bottom_object);
             if ($(this), bottom_window > bottom_object) {
                 $(this).animate({
                     'opacity': '1'
