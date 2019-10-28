@@ -1,6 +1,7 @@
 <xhtml>
 
     <head>
+        <title>Zach Nicoll || Software Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
@@ -95,8 +96,16 @@
                         <h1>Conact Me</h1>
                         <hr>
                     </div>
-                    <div class="col-6" style="position:absolute; top: 35%">
-                        <button>Send Email</button>
+                    <div class="col-12" style="position:absolute; top: 35%">
+                        <form id="contact-form" method="post" action="contact-form-handler.php">
+                            <input name="name" type="text" class="form-control" placeholder="Your Name" autocomplete="off" required/>
+                            <br>
+                            <input name="email" type="text" class="form-control" placeholder="Your Email" autocomplete="off" required/>
+                            <br>
+                            <textarea name="message" class="form-control" placeholder="Message" row="4" autocomplete="off" required></textarea>
+                            <br>
+                            <input type="submit" class="form-control submit" value="SEND MESSAGE"/>
+                        </form>
                     </div>
                 </div>
             </div>
