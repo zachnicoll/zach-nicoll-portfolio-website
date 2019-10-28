@@ -68,15 +68,20 @@ hr {
     align-content: center;
     padding: 10% 0;
     opacity: 0;
+    border-radius: 15px;
 }
 
 .portfolio-box{
-    margin: 15px;
+    margin: 4%;
     float: left;
-    display: block;
+    height: 60%;
+    bottom: -20%;
 }
 
-.title{}
+.title{
+    height: 5%;
+    padding: 8% 0;
+}
 
 .socials{
     z-index: 100;
@@ -122,22 +127,19 @@ i{
 form{
     margin-top: 50px;
     transition: all 4s ease-in-out;
+    position: relative;
 }
 
 .form-control{
-    width: 75%; 
     background: transparent;
     border: none;
     outline: none;
     border-bottom: 1px solid black;
     color: black;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 
-}
-
-input{
-    height: 45px;
 }
 
 form .submit{
@@ -149,6 +151,7 @@ form .submit{
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 form .submit:hover{
