@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="./styles/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+        <script src="https://kit.fontawesome.com/3a64ca89b8.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/fadeInOnScroll.js"></script>
         <script type="text/javascript">
             if (screen.width <= 600) {
                 document.location = "./mobile/index.html"
@@ -14,26 +16,90 @@
     </head>
 
     <body>
+        <div class="socials">
+            <a href="https://github.com/zachnicoll" target="_blank">
+                <i class="fab fa-github" style="font-size: 40px"></i>
+            </a>
+            <a href="./Zachary Nicoll - Programmer Resume 2019.pdf" target="_blank" download>
+                <i class="fas fa-download" style="font-size: 40px"></i>
+            </a>
+            <a href="mailto:zach.nicoll55@gmail.com?Subject=Job Offer" target="_top"><i class="fas fa-paper-plane"
+                    style="font-size: 40px"></i></a>
+        </div>
+
         <div class="col-12" id="landingpage">
-            <div class="container col-6">
-                <h1>Zach Nicoll</h1>
-                <hr>
-                <h2>Student Software Engineer</h2>
+            <div class="container title col-9">
+                <div style="position:absolute; top:0%; height: 100%; width:100%;">
+                    <div class="col-12" style="position: relative; top: 25%">
+                        <h1>Zach Nicoll</h1>
+                        <hr>
+                        <h2>Software Engineer</h2>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="col-12" id="navbar">
-            <a><img src="./img/code-24px.svg" style="width: 50px; color: white;"></a>
-            <a href=""><h2>ABOUT ME</h2></a>
-            <a href=""><h2>SKILLS</h2></a>
-            <a href=""><h2>EDUCATION</h2></a>
-            <a href=""><h2>RESUME</h2></a>
-            <a href=""><h2>CONTACT</h2></a>
+        <div class="col-12" id="landingpage">
+            <div class="container col-9">
+                <div style="position:absolute; top:0%; height: 100%; width:100%;">
+                    <div class="col-12" style="position: relative; top: 0%">
+                        <h1>About Me</h1>
+                        <hr>
+                    </div>
+                    <div class="col-6" style="position:absolute; top: 35%">
+                        <h2>Summary</h2>
+                        <p
+                            style="text-align:unset; padding-left: 5%; padding-right: 5%; border-right: dashed 1px #000;">
+                            I am an aspiring software developer currently in my second year of study in a degree of Computer and Software Systems Engineering at QUT. With a love for code and all things programming, I take pride in my ability to problem solve, communicate ideas, and lead effectively in a team environment. I am constantly trying to expand my programming skill set, and any opportunity to learn is greatly valued. In my spare time, I enjoy rock climbing, cycling, and board games.
+                        </p>
+                    </div>
+                    <div class="col-6" style="position:absolute; right:2%; top: 35%">
+                        <h2>Skills</h2>
+                        <p style="text-align: left; padding-left: 5%;">
+                            <ul>
+                                <li>Web Dev</li>
+                                <li>Web Scraping</li>
+                                <li>Native Apps</li>
+                                <li>Mathematical Modelling</li>
+                                <li>Embedded Systems</li>
+                                <li>Microprocessors</li>
+                                <li>C, C++, C#</li>
+                                <li>Python</li>
+                                <li>HTML, JavaScript, PHP, MySQL, jQuery, NodeJS, P5.js</li>
+                                <li>React Native & Expo</li>
+                                <li>MATLAB</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="container col-12">
-            <h1>About Me</h1>
+        <div class="col-12" id="landingpage" style="position: relative; padding-left: 15%;">
+            <div class="container col-3 portfolio-box">
+
+            </div>
+            <div class="container col-3 portfolio-box">
+
+            </div>
+            <div class="container col-3 portfolio-box">
+
+            </div>
         </div>
+
+
+        <div class="col-12" id="landingpage">
+            <div class="container col-9">
+                <div style="position:absolute; top:0%; height: 100%; width:100%;">
+                    <div class="col-12" style="position: relative; top: 0%">
+                        <h1>Conact Me</h1>
+                        <hr>
+                    </div>
+                    <div class="col-6" style="position:absolute; top: 35%">
+                        <button>Send Email</button>
+                    </div>
+                </div>
+            </div>
     </body>
 
 
