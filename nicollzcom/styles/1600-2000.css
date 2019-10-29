@@ -76,6 +76,27 @@ hr {
     float: left;
     height: 60%;
     bottom: -20%;
+    background-size: cover;
+    background-color: gold;
+    background-position: cover;
+}
+.portfolio-box h2{
+    font-weight: 1000;
+}
+
+.fa-link{
+    position:absolute; 
+    top:20%; 
+    left:35%; 
+    font-size:150px; 
+    opacity: 0;
+}
+
+.portfolio-box p{
+    position:absolute; 
+    top:50%; 
+    font-size:30px; 
+    opacity: 0;
 }
 
 .title{

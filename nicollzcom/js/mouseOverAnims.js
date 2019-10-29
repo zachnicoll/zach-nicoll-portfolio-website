@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $('.portfolio-box').find('h2').css("opacity","1");
+    $('.portfolio-box').find('p').css("opacity","0");
+    $('.portfolio-box').find('i').css("opacity","0");
     var bkg;
     $(".portfolio-box").hover(
         function () {
