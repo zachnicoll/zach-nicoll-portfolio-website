@@ -78,7 +78,7 @@ hr {
     bottom: -20%;
     background-size: cover;
     background-color: gold;
-    background-position: cover;
+    background-position: center;
 }
 .portfolio-box h2{
     font-weight: 1000;
